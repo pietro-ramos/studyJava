@@ -64,4 +64,8 @@ public class Person {
 	public void setMinor(boolean minor) {
 		this.minor = minor;
 	}
+	public String toString() {
+		return "name: " + name + ", age: " + age + ", height: " + height;
+	}
+	
 }
